@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1340</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1340</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1340</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferAntialias</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Program Tes Kepribadian MBTI</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>draw-icon.png</normaloff>draw-icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>19</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string>Tes Kepribadian MBTI</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>1311</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="title">
+     <string>   Soal Tes Kepribadian   :   </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>280</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tampilkan Hasil</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>40</y>
+       <width>251</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Soal Bagian 4</string>
+     </property>
+     <widget class="QRadioButton" name="radioButtonI4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sangat menyukai tempat yang tenang</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_19</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal20">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>20. Menurut pendapat orang lain saya ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonE4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sangat suka dengan keramaian</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_19</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonF4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sering dianggap terlalu memihak</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_20</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>19. Anda adalah seseorang yang ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonT4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sering dianggap keras kepala</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_20</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>40</y>
+       <width>335</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Soal Bagian 2</string>
+     </property>
+     <widget class="QRadioButton" name="radioButtonF2_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>420</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Berdasar pada perasaan pribadi dan kondisi orang lain</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_12</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>10. Jika sesorang meminta pendapat, anda akan  ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonE2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>121</y>
+        <width>311</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sosialis, terbuka dan ekspesif</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_8</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonT2_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>400</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Berdasar logika dan peraturan yang sudah ditentukan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_12</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonP2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Merubah rencana untuk beradaptasi dengan keadaan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_9</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonT2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>311</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mengatakan dengan jujur tanpa memperdulikan perasaanya</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_10</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12. Jika anda mengambil keputusan anda akan berdasar pada ?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soal8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>8. Anda adalah seseorang yang ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonF2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Berbohong untuk menyenangkan hatinya </string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_10</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonJ2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tetap fokus pada target dan mengabaikan perubahan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_9</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonI2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tertutup dan mandiri</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_8</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonN2_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>350</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Lebih mudah mendapatkan inspirasi dan ide - ide baru</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_11</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal11">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>11. Jika anda sedang di hutan atau taman, anda akan ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonS2_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Merasakan indah dan sejuknya pepohonan disekitar anda </string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_11</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>9. Ketika sesuatu tidak berjalan sesuai dengan prediksi anda ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonS2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Seseorang yang selalu berfikir realistis</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_7</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonN2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Seseorang yang imajinatif</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_7</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>7. Anda lebih suka seseorang dengan sifat ?</string>
+      </property>
+     </widget>
+     <zorder>radioButtonS2</zorder>
+     <zorder>radioButtonF2_2</zorder>
+     <zorder>soal10</zorder>
+     <zorder>radioButtonE2</zorder>
+     <zorder>radioButtonT2_2</zorder>
+     <zorder>radioButtonP2</zorder>
+     <zorder>radioButtonT2</zorder>
+     <zorder>soal12</zorder>
+     <zorder>soal8</zorder>
+     <zorder>radioButtonF2</zorder>
+     <zorder>radioButtonJ2</zorder>
+     <zorder>radioButtonI2</zorder>
+     <zorder>radioButtonN2_2</zorder>
+     <zorder>soal11</zorder>
+     <zorder>radioButtonS2_2</zorder>
+     <zorder>soal9</zorder>
+     <zorder>radioButtonN2</zorder>
+     <zorder>soal7</zorder>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>321</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <stylestrategy>PreferDefault</stylestrategy>
+      </font>
+     </property>
+     <property name="title">
+      <string>Soal Bagian 1</string>
+     </property>
+     <widget class="QRadioButton" name="radioButtonE1_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>420</y>
+        <width>270</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pergi dengan teman - teman ke suatu tempat</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_6</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonS1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mengikuti orang lain biasa lakukan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_4</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonI1_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>400</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Beraktifitas dirumah dan menikmati ketenangan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_6</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonJ1_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>291</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sangat berguna agar berjalan semua sesuai rencana</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_5</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonI1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mendalam dengan hanya beberapa orang</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>5. Membuat jadwal dalam melakukan sesuatu membuat anda  ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonN1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cara anda sendiri tanpa pengaruh dari orang lain</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_4</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>6. Saat hari libur anda lebih suka ?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soal3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>3. Ketika kesal terhadap seseorang anda lebih suka ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonP1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>221</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Spontan, Fleksibel, tidak diikat waktu </string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonJ1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>291</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Terencana, Terstruktur dan memiliki deadline yang jelas </string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonP1_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>350</y>
+        <width>271</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Jadwal terkesan sangat mengikat dan membebani</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_5</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>2. Saya lebih suka memiliki hubungan yang ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonT1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mengkritik langsung kepada orang tersebut</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_3</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>4. Saat melakukan sesuatu lebih suka melakukanya dengan ?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soal1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>1. Anda tipe seseorang yang ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonF1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Menyimpannya dalam hati saja dan bersabar</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_3</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonE1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Luas dengan banyak orang yang berbeda - beda</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_2</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>40</y>
+       <width>347</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Soal Bagian 3</string>
+     </property>
+     <widget class="QRadioButton" name="radioButtonF3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Logis atau tidak, saya tetap akan percaya pada feeling saya</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_17</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>13. Anda adalah tipe orang yang selalu berfokus pada ?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soal14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>14. Bagaimana sikap anda terhadap sebuah deadline ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonN3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>301</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Masa depan (apa yang mungkin dicapai di masa depan)</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_13</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonN3_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>190</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Saya percaya inspirasi, wawasan, ide dan firasat.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_15</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>15. Saya lebih pecaya pada ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonP3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>140</y>
+        <width>301</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Deadline adalah sesuatu yang sangat fleksibel bagi saya</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_14</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonS3_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>210</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Saya percaya fakta, contoh-contoh konkret dan bukti.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_15</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>311</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>17. Saya akan mempercayai perasaan atau feeling saya jika ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonJ3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>120</y>
+        <width>301</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Serius terhadap deadline agar tepat pada rencana</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_14</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonT3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>350</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hanya jika perasaan atau feeling itu logis atau masuk akal</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_17</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonE3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>280</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Berorientasi pada dunia eksternal (kegiatan, orang)</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_16</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>240</y>
+        <width>281</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>16. Saya lebih suka ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonI3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>260</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Berorientasi pada dunia internal (memori, pemikiran, ide)</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_16</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonJ3_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>261</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kontinuitas dan stabilitas lebih diutamakan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_18</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="soal18">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>321</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>18. Anda akan lebih memilih ?</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonP3_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>420</y>
+        <width>221</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Perubahan dan variasi lebih diutamakan</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_18</string>
+      </attribute>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonS3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Masa kini (apa yang bisa diperbaiki sekarang)</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_13</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>240</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>320</y>
+       <width>251</width>
+       <height>196</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1340</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_10"/>
+  <buttongroup name="buttonGroup_11"/>
+  <buttongroup name="buttonGroup_12"/>
+  <buttongroup name="buttonGroup_13"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_14"/>
+  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_15"/>
+  <buttongroup name="buttonGroup_4"/>
+  <buttongroup name="buttonGroup_16"/>
+  <buttongroup name="buttonGroup_5"/>
+  <buttongroup name="buttonGroup_17"/>
+  <buttongroup name="buttonGroup_6"/>
+  <buttongroup name="buttonGroup_18"/>
+  <buttongroup name="buttonGroup_7"/>
+  <buttongroup name="buttonGroup_19"/>
+  <buttongroup name="buttonGroup_8"/>
+  <buttongroup name="buttonGroup_9"/>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_20"/>
+ </buttongroups>
+</ui>

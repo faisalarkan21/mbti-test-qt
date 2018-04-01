@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>431</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>5</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/faisal21/PycharmProjects/5b9594c61c0709747b74f04c810943e1.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>30</y>
+     <width>371</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Kepribadian INTP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>110</y>
+     <width>691</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="text">
+    <string>INTP adalah orang-orang pendiam dan tidak banyak bicara. Mereka suka menggali hingga ke dasar masalah – rasa ingin tahu adalah dorongan terbesar mereka. Mereka ingin tahu apa yang menyatukan dunia jauh di dalamnya. Mereka tidak butuh lebih banyak untuk kebahagiaan mereka karena mereka adalah orang-orang yang rendah hati. Banyak ahli matematika, filsuf, dan ilmuwan merupakan tipe ini. Tipe Pemikir Analitis tidak suka kontradiksi dan ketidaklogisan; dengan kecerdasan mereka yang tajam, dengan cepat dan menyeluruh mereka menangkap pola, prinsip, dan struktur. Secara khusus mereka tertarik dengan sifat mendasar segala hal dan penemuan-penemuan teoritis; bagi mereka, tidak penting apakah mereka harus menerjemahkannya menjadi tindakan-tindakan praktis atau membagi pemikiran mereka kepada orang lain. Tipe Pemikir Analitis suka bekerja sendiri; kemampuan mereka untuk berkonsentrasi lebih menonjol dibanding tipe kepribadian yang lain. Mereka terbuka dan tertarik pada informasi baru.  Tipe Pemikir Analitis hanya memiliki sedikit ketertarikan pada masalah sehari-hari – mereka selalu agak seperti „profesor linglung“ yang rumah dan tempat kerjanya berantakan dan hanya mengkhawatirkan diri sendiri dengan hal-hal dasar seperti kebutuhan fisik ketika hal itu menjadi sangat tidak bisa dihindarkan. Pengakuan atas karya mereka oleh orang lain juga memegang peranan penting bagi mereka; 
+
+secara umum, mereka cukup mandiri dalam hubungan sosial dan sangat mengandalkan diri sendiri. Oleh karena itu tipe Pemikir Analitis sering memberi kesan kepada orang lain bahwa mereka arogan atau congkak – terutama karena mereka tidak ragu untuk melontarkan isi kepala mereka dengan kritik mereka yang biasanya pedas (sekalipun beralasan) dan rasa percaya diri mereka yang tak tergoyahkan. Orang-orang di sekitarnya yang tidak kompeten tidak akan lolos dengan mudah dari mereka. Namun barangsiapa berhasil memenangkan rasa hormat dan ketertarikan mereka akan mendapatkan orang yang jenaka dan sangat cerdas untuk diajak berbincang. Pasangan yang membuat seseorang takjub dengan pengamatannya yang tajam dan selera humornya yang getir.</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="margin">
+    <number>13</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1281</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/faisal21/PycharmProjects/BFBC2_Clean_Background_2160_8-Bit.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>20</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>90</y>
+     <width>731</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>line</zorder>
+  <zorder>line_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

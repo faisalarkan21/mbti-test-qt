@@ -1,0 +1,3 @@
+
+class orang ():
+    pass
